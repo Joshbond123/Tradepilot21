@@ -721,22 +721,6 @@ export default function Landing() {
                     Privacy Policy
                   </button>
                 </li>
-                <li>
-                  <button 
-                    onClick={() => setLocation("/risk-disclosure")}
-                    className="hover:text-crypto-blue transition-colors"
-                  >
-                    Risk Disclosure
-                  </button>
-                </li>
-                <li>
-                  <button 
-                    onClick={() => setLocation("/security")}
-                    className="hover:text-crypto-blue transition-colors"
-                  >
-                    Security Policy
-                  </button>
-                </li>
               </ul>
             </div>
           </div>
