@@ -2348,7 +2348,7 @@ TradePilot Support Team 🚀`
   });
 
   // Admin full review update with image upload
-  app.patch("/api/admin/reviews/:id", upload.single("image"), authenticateToken, requireAdmin, async (req: AuthenticatedRequest, res) => {
+  app.patch("/api/admin/reviews/:id", authenticateToken, requireAdmin, reviewUpload.single("image"), async (req: AuthenticatedRequest, res) => {
     try {
       const { id } = req.params;
       const updateData = {
