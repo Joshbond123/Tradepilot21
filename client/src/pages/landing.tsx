@@ -685,44 +685,6 @@ export default function Landing() {
               </div>
             </div>
 
-            {/* Platform Column */}
-            <div>
-              <h4 className="text-white font-semibold mb-4">Platform</h4>
-              <ul className="space-y-3 text-sm text-slate-400">
-                <li>
-                  <button 
-                    onClick={() => setLocation("/dashboard")}
-                    className="hover:text-crypto-blue transition-colors"
-                  >
-                    Investment Dashboard
-                  </button>
-                </li>
-                <li>
-                  <button 
-                    onClick={() => setLocation("/investment-plans")}
-                    className="hover:text-crypto-blue transition-colors"
-                  >
-                    AI Trading Plans
-                  </button>
-                </li>
-                <li>
-                  <button 
-                    onClick={() => setLocation("/arbitrage-feed")}
-                    className="hover:text-crypto-blue transition-colors"
-                  >
-                    Live Arbitrage Feed
-                  </button>
-                </li>
-                <li>
-                  <button 
-                    onClick={() => setLocation("/reviews")}
-                    className="hover:text-crypto-blue transition-colors"
-                  >
-                    Customer Reviews
-                  </button>
-                </li>
-              </ul>
-            </div>
 
             {/* Company Column */}
             <div>
