@@ -23,6 +23,8 @@ import { ChangePasswordPage } from "@/pages/change-password";
 import { AIChatPage } from "@/pages/ai-chat";
 import { ContactPage } from "@/pages/contact";
 import About from "@/pages/about";
+import Terms from "@/pages/terms";
+import Privacy from "@/pages/privacy";
 import Admin from "@/pages/admin-new-working";
 import Login from "@/pages/auth/login";
 import Register from "@/pages/auth/register";
@@ -58,6 +60,8 @@ function Router() {
         <Route path="/ai-chat" component={AIChatPage} />
         <Route path="/contact" component={ContactPage} />
         <Route path="/about" component={About} />
+        <Route path="/terms" component={Terms} />
+        <Route path="/privacy" component={Privacy} />
         <Route path="/inbox" component={InboxPage} />
         <Route path="/edit-profile" component={EditProfilePage} />
         <Route path="/change-password" component={ChangePasswordPage} />
